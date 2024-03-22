@@ -1,9 +1,10 @@
 from setuptools import find_packages, setup
 from typing import List
+from ensure import ensure_annotations
 
 HYPEN_E_DOT = '-e .'
 
-
+@ensure_annotations
 def get_requirements(file_path: str) -> List[str]:
     '''
     this function will return the list of requirements
