@@ -38,6 +38,7 @@ class ModelTrainer:
                 "Decision Tree": DecisionTreeRegressor(),
                 "Random Forest Regressor": RandomForestRegressor(),
                 "XGBRegressor": XGBRegressor(),
+                "Support Vector Machine":SVR(),
                 "CatBoosting Regressor": CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor": AdaBoostRegressor()
             }
